@@ -130,6 +130,8 @@ async function parsePlacesCSV(){
     console.log("url", url)  
     let img1 = url + "/traveltaniti/2107845.png";
     let img2 = url + "/traveltaniti/6521659.png"
+
+    console.log("HEYY", url, img1, img2)
     for (let image of images){
 
         image.addEventListener('click', event => {
