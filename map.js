@@ -319,10 +319,10 @@ function getTableHeaderHTML(){
 
 function getRowHTML(row){
     // console.log("getting row", row)
-    let heart = "6521659.png"
+    let heart = "/traveltaniti/6521659.png"
     console.log("row is tttt", row[7])
     if(row[7] == "favorites"){
-        heart = "2107845.png"
+        heart = "/traveltaniti/2107845.png"
     }
 
     let html = `<tr style="height: 118px"
