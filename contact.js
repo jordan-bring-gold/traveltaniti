@@ -74,29 +74,9 @@ function moveButton() {
 
   let stages = [
     ()=>{
-    },
-    ()=>{
         fun("Unable to send your message. Do NOT try to submit again.")
     },
-    ()=>{
-        applyRandomStylesToElements();
-        setTimeout(()=>{
-            crazy = "spin 1s linear infinite"
-            applyRandomStylesToElements();
-            setTimeout(()=>{
-                crazy = "spin .1s linear infinite"
-                applyRandomStylesToElements();
-                setTimeout(()=>{
-                    crazy = "spin .001s linear infinite"
-                    applyRandomStylesToElements();
-                    setTimeout(()=>{
-                        removeAllElements();
-                        createBlackScreen();
-                    },3000)
-                },1000)
-            },3000)
-        },5000)
-        
+    ()=>{        
         fun("Do you not know how to listen? DON'T PRESS THAT.")
     },
     ()=>{
@@ -142,6 +122,22 @@ function moveButton() {
     },
     ()=>{
         applyRandomStylesToElements();
+        setTimeout(()=>{
+            crazy = "spin 1s linear infinite"
+            applyRandomStylesToElements();
+            setTimeout(()=>{
+                crazy = "spin .1s linear infinite"
+                applyRandomStylesToElements();
+                setTimeout(()=>{
+                    crazy = "spin .001s linear infinite"
+                    applyRandomStylesToElements();
+                    setTimeout(()=>{
+                        removeAllElements();
+                        createBlackScreen();
+                    },3000)
+                },1000)
+            },3000)
+        },5000)
 },
 
 
