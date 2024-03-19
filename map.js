@@ -360,10 +360,13 @@ function getRowHTML(row){
     }
     html += dollar + '</td>';
 
+    let oldhref="'https://www.youtube.com/watch?v=dQw4w9WgXcQ'";
+    let newhref="";
+
     html += `<td class="u-border-2 u-border-grey-30 u-border-no-left u-border-no-right u-table-cell">
     <a
       class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-palette-1-base u-btn-1"
-      href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+      href=` + newhref + `
       target="_blank"
       style="font-weight: 700; font-size:24px;"
     >
