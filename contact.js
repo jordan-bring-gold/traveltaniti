@@ -53,7 +53,7 @@ function moveButton() {
         document.getElementById("spinner").style.display="none";
         stages[stage]();
         stage += 1;
-        document.getElementById("submit-button").onclick = next;
+        //document.getElementById("submit-button").onclick = next;
     },timeout)
 
 
